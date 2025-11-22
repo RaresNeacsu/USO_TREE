@@ -1,0 +1,15 @@
+# Executables
+tree
+tree_debug
+tree_fixed
+a.out
+
+# Object files
+*.o
+
+# Test directories
+test_dir/
+
+# Editor directories and files
+.vscode/
+*.swp

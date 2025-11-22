@@ -22,7 +22,7 @@ void print_dir(const char *path, const char *prefix, int last)
     const char *name = strchr(path, '/');
     if(name) name++; else name = path;
 
-    if (prefix[0] != '\0' || last) {
+    if (prefix[0] != '\0' || last){
          if(last)
         {
             printf("%s└── ", prefix);

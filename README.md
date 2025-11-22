@@ -55,3 +55,29 @@ Sau pentru a afișa structura unui alt director (de exemplu `test_dir`):
 ## Autor
 
 Acest program a fost realizat ca parte a unui exercițiu de utilizare a sistemelor de operare (USO).
+
+## Varianta cu Adâncime Minimă (tree_mindepth)
+
+Există și o variantă a programului care permite filtrarea afișării în funcție de adâncimea minimă a căilor. Aceasta este utilă pentru a vizualiza doar structurile de directoare adânci.
+
+### Compilare
+
+```bash
+gcc tree_mindepth.c -o treemin
+```
+
+### Utilizare
+
+Sintaxa este:
+
+```bash
+./treemin <cale_director> <adancime_minima>
+```
+
+### Exemplu
+
+Pentru a afișa doar căile care au o adâncime de cel puțin 6 directoare:
+
+```bash
+./treemin . 6
+```
